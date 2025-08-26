@@ -21,29 +21,11 @@ export default function Logo({ className, size = "md", showText = true }: LogoPr
 
   return (
     <div className={cn("flex items-center space-x-3", className)}>
-      <div className={cn("relative", sizeClasses[size])}>
-        <div className="absolute inset-0 bg-academy-orange rounded-2xl transform rotate-45 origin-center shadow-lg"></div>
-        <div className="absolute inset-3 bg-academy-green rounded-full flex items-center justify-center">
-          <svg
-            className="w-4 h-4 text-white"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-        </div>
-      </div>
-      {showText && (
-        <div className="text-left">
-          <div className={cn("text-academy-green font-bold", textSizeClasses[size])}>
-            THE INVENTORS
-          </div>
-          <div className={cn("text-academy-orange font-bold", size === "sm" ? "text-sm" : size === "md" ? "text-lg" : "text-xl lg:text-2xl")}>
-            ACADEMY
-          </div>
-        </div>
-      )}
+      <img 
+        src="/attached_assets/The-Inventor-Academy-Logo-U4 copy_1756199382074.jpg" 
+        alt="The Inventor Academy Logo"
+        className={cn(sizeClasses[size], "object-contain")}
+      />
     </div>
   );
 }

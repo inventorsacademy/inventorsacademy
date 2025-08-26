@@ -3,35 +3,35 @@ import { MapPin, Users, Utensils } from "lucide-react";
 export default function StudentLifeSection() {
   const galleryImages = [
     {
-      url: "@assets/Screenshot 2025-08-26 at 09.55.35_1756198553740.png",
+      url: "/attached_assets/Screenshot 2025-08-26 at 09.55.35_1756198553740.png",
       caption: "Workshop Sessions"
     },
     {
-      url: "@assets/Screenshot 2025-08-26 at 09.53.58_1756198553740.png",
+      url: "/attached_assets/Screenshot 2025-08-26 at 09.53.58_1756198553740.png",
       caption: "Historic Setting"
     },
     {
-      url: "@assets/Screenshot 2025-08-26 at 09.54.22_1756198553740.png",
+      url: "/attached_assets/Screenshot 2025-08-26 at 09.54.22_1756198553740.png",
       caption: "Oxford Streets"
     },
     {
-      url: "@assets/Screenshot 2025-08-26 at 09.52.55_1756198553740.png",
+      url: "/attached_assets/Screenshot 2025-08-26 at 09.52.55_1756198553740.png",
       caption: "Study Time"
     },
     {
-      url: "@assets/Screenshot 2025-08-26 at 09.54.38_1756198553740.png",
+      url: "/attached_assets/Screenshot 2025-08-26 at 09.54.38_1756198553740.png",
       caption: "Team Projects"
     },
     {
-      url: "@assets/Screenshot 2025-08-26 at 09.52.44_1756198553740.png",
+      url: "/attached_assets/Screenshot 2025-08-26 at 09.52.44_1756198553740.png",
       caption: "Collaboration"
     },
     {
-      url: "@assets/Screenshot 2025-08-26 at 09.53.51_1756198553740.png",
+      url: "/attached_assets/Screenshot 2025-08-26 at 09.53.51_1756198553740.png",
       caption: "College Life"
     },
     {
-      url: "@assets/Screenshot 2025-08-26 at 09.53.26_1756198553740.png",
+      url: "/attached_assets/Screenshot 2025-08-26 at 09.53.26_1756198553740.png",
       caption: "Campus Social"
     }
   ];
