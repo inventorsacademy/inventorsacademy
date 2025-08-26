@@ -17,7 +17,7 @@ export default function AboutSection() {
           {/* Image */}
           <div className="relative">
             <img 
-              src="/attached_assets/Screenshot 2025-08-26 at 09.53.58_1756200719813.png" 
+              src="/attached_assets/oxford-radcliffe.png" 
               alt="Oxford colleges aerial view" 
               className="rounded-2xl shadow-2xl w-full h-auto"
               data-testid="about-image"
