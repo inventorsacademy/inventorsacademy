@@ -3,36 +3,36 @@ import { MapPin, Users, Utensils } from "lucide-react";
 export default function StudentLifeSection() {
   const galleryImages = [
     {
-      url: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      url: "@assets/Screenshot 2025-08-26 at 09.55.35_1756198553740.png",
       caption: "Workshop Sessions"
     },
     {
-      url: "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      url: "@assets/Screenshot 2025-08-26 at 09.53.58_1756198553740.png",
       caption: "Historic Setting"
     },
     {
-      url: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      caption: "Outdoor Projects"
+      url: "@assets/Screenshot 2025-08-26 at 09.54.22_1756198553740.png",
+      caption: "Oxford Streets"
     },
     {
-      url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      url: "@assets/Screenshot 2025-08-26 at 09.52.55_1756198553740.png",
       caption: "Study Time"
     },
     {
-      url: "https://images.unsplash.com/photo-1560439513-74b037a25d84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      caption: "Presentations"
+      url: "@assets/Screenshot 2025-08-26 at 09.54.38_1756198553740.png",
+      caption: "Team Projects"
     },
     {
-      url: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      url: "@assets/Screenshot 2025-08-26 at 09.52.44_1756198553740.png",
       caption: "Collaboration"
     },
     {
-      url: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
+      url: "@assets/Screenshot 2025-08-26 at 09.53.51_1756198553740.png",
       caption: "College Life"
     },
     {
-      url: "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-      caption: "City Tours"
+      url: "@assets/Screenshot 2025-08-26 at 09.53.26_1756198553740.png",
+      caption: "Campus Social"
     }
   ];
 

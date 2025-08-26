@@ -82,7 +82,7 @@ export default function SafetySection() {
           {/* Oxford college image */}
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000" 
+              src="@assets/Screenshot 2025-08-26 at 09.53.42_1756198553740.png" 
               alt="Secure Oxford college courtyard" 
               className="rounded-2xl shadow-2xl w-full h-auto"
               data-testid="safety-image"
