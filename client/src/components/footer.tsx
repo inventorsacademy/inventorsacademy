@@ -50,13 +50,6 @@ export default function Footer() {
               An independent summer program inspiring young innovators through hands-on STEM learning, entrepreneurship, and creativity in the historic setting of Oxford colleges.
             </p>
             
-            {/* Important Notice */}
-            <div className="bg-academy-orange/20 border border-academy-orange/30 rounded-lg p-4 mb-6" data-testid="footer-disclaimer">
-              <p className="text-sm text-orange-200">
-                <span className="mr-2">ℹ️</span>
-                <strong>Independent Program:</strong> The Inventors Academy is not affiliated with the University of Oxford.
-              </p>
-            </div>
             
             {/* Social Links */}
             <div className="flex space-x-4" data-testid="social-links">

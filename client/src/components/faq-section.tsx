@@ -4,14 +4,9 @@ import { ChevronDown, Mail } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function FAQSection() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0); // Oxford affiliation FAQ open by default
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const faqs = [
-    {
-      question: "Is The Inventors Academy affiliated with the University of Oxford?",
-      answer: "No, The Inventors Academy is completely independent and not affiliated with the University of Oxford. We are a private educational program that operates in historic Oxford college buildings during the summer months. While we use Oxford's inspiring setting and facilities, we are not connected to the university in any official capacity. Our certificates are issued by The Inventors Academy, not the University of Oxford.",
-      important: true
-    },
     {
       question: "Who can apply to The Inventors Academy?",
       answer: "Our programs are open to motivated students aged 13+ from around the world. We welcome participants of all backgrounds and nationalities. For ages 13-15, we recommend basic English proficiency and enthusiasm for STEM subjects. Ages 16-18 should have completed some secondary education in relevant subjects. Our adult track (18+) is open to professionals and lifelong learners seeking innovation skills."
@@ -58,10 +53,7 @@ export default function FAQSection() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className={cn(
-                "bg-white rounded-2xl shadow-lg overflow-hidden",
-                faq.important && "border-2 border-amber-200"
-              )}
+              className="bg-white rounded-2xl shadow-lg overflow-hidden"
               data-testid={`faq-item-${index}`}
             >
               <button
@@ -81,19 +73,11 @@ export default function FAQSection() {
               </button>
               {openFaq === index && (
                 <div
-                  className={cn(
-                    "px-6 pb-6 border-t border-gray-100",
-                    faq.important && "bg-amber-50"
-                  )}
+                  className="px-6 pb-6 border-t border-gray-100"
                   data-testid={`faq-answer-${index}`}
                 >
                   <p className="text-gray-700 leading-relaxed pt-4">
-                    {faq.important && (
-                      <strong className="block mb-2">
-                        {faq.answer.split('.')[0]}.
-                      </strong>
-                    )}
-                    {faq.important ? faq.answer.split('.').slice(1).join('.') : faq.answer}
+                    {faq.answer}
                   </p>
                 </div>
               )}
