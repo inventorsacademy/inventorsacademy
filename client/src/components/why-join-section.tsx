@@ -71,7 +71,7 @@ export default function WhyJoinSection() {
           {/* Right Column - Visual */}
           <div className="relative">
             <img 
-              src="/attached_assets/Screenshot 2025-08-26 at 09.53.51_1756198553740.png" 
+              src="/attached_assets/Screenshot 2025-08-26 at 09.53.51_1756200719813.png" 
               alt="Oxford college interior with students" 
               className="rounded-2xl shadow-2xl w-full h-auto"
               data-testid="why-join-image"

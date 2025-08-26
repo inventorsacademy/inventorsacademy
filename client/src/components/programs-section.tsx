@@ -16,7 +16,7 @@ export default function ProgramsSection() {
       ],
       buttonColor: "bg-academy-orange hover:bg-academy-orange/90",
       badgeColor: "bg-academy-orange",
-      image: "/attached_assets/Screenshot 2025-08-26 at 09.55.35_1756198553740.png"
+      image: "/attached_assets/Screenshot 2025-08-26 at 09.55.35_1756200719813.png"
     },
     {
       id: "future-leaders",
@@ -32,7 +32,7 @@ export default function ProgramsSection() {
       buttonColor: "bg-academy-green hover:bg-academy-green/90",
       badgeColor: "bg-academy-green",
       isPopular: true,
-      image: "/attached_assets/Screenshot 2025-08-26 at 09.54.38_1756198553740.png"
+      image: "/attached_assets/Screenshot 2025-08-26 at 09.54.38_1756200719813.png"
     },
     {
       id: "adult-track",
@@ -47,7 +47,7 @@ export default function ProgramsSection() {
       ],
       buttonColor: "bg-purple-600 hover:bg-purple-700",
       badgeColor: "bg-purple-600",
-      image: "/attached_assets/Screenshot 2025-08-26 at 09.52.44_1756198553740.png"
+      image: "/attached_assets/Screenshot 2025-08-26 at 09.52.44_1756200719813.png"
     }
   ];
 
