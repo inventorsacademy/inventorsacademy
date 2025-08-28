@@ -9,7 +9,7 @@ export default function AboutSection() {
             About The Inventors Academy
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-testid="about-description">
-            An immersive summer program where young minds discover their potential through innovation, creativity, and hands-on learning in the inspiring setting of Oxford's historic colleges.
+            An immersive week to 2 week program where young minds discover their potential through innovation, creativity, and hands-on learning in the inspiring setting of Oxford's historic colleges.
           </p>
         </div>
         
