@@ -7,16 +7,16 @@ export default function DatesFees() {
       name: "Young Innovators",
       ageGroup: "13-15",
       duration: "1 week",
-      dates: ["July 15-22", "July 29-Aug 5"],
-      fee: "£1,950",
+      dates: ["TBC"],
+      fee: "Enquire",
       buttonColor: "bg-academy-orange hover:bg-academy-orange/90"
     },
     {
       name: "Future Leaders",
       ageGroup: "16-18",
       duration: "2 weeks",
-      dates: ["July 8-22", "July 22-Aug 5", "Aug 5-19"],
-      fee: "£3,450",
+      dates: ["TBC"],
+      fee: "Enquire",
       buttonColor: "bg-academy-green hover:bg-academy-green/90",
       highlighted: true
     },
@@ -24,8 +24,8 @@ export default function DatesFees() {
       name: "Adult Track",
       ageGroup: "18+",
       duration: "1 week",
-      dates: ["July 22-29", "Aug 12-19"],
-      fee: "£2,750",
+      dates: ["TBC"],
+      fee: "Enquire",
       buttonColor: "bg-purple-600 hover:bg-purple-700"
     }
   ];
@@ -61,7 +61,7 @@ export default function DatesFees() {
                   <th className="px-6 py-4 text-left font-semibold">Program</th>
                   <th className="px-6 py-4 text-left font-semibold">Age Group</th>
                   <th className="px-6 py-4 text-left font-semibold">Duration</th>
-                  <th className="px-6 py-4 text-left font-semibold">Dates 2024</th>
+                  <th className="px-6 py-4 text-left font-semibold">Dates</th>
                   <th className="px-6 py-4 text-left font-semibold">Fee</th>
                   <th className="px-6 py-4 text-center font-semibold">Action</th>
                 </tr>
