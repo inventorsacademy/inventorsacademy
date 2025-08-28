@@ -18,13 +18,6 @@ export default function SafetySection() {
     }
   ];
 
-  const certifications = [
-    { icon: "🏅", title: "UK Safeguarding" },
-    { icon: "🚑", title: "First Aid Certified" },
-    { icon: "🛡️", title: "Health & Safety" },
-    { icon: "⚖️", title: "GDPR Compliant" }
-  ];
-
   return (
     <section className="py-20 bg-gradient-to-br from-academy-cream to-green-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -85,25 +78,6 @@ export default function SafetySection() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        
-        {/* Certifications */}
-        <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold text-academy-green mb-8" data-testid="certifications-title">
-            Our Certifications & Accreditations
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {certifications.map((cert, index) => (
-              <div 
-                key={index}
-                className="bg-white p-4 rounded-xl shadow-lg"
-                data-testid={`certification-${index}`}
-              >
-                <div className="text-3xl mb-2">{cert.icon}</div>
-                <div className="text-sm font-semibold text-academy-green">{cert.title}</div>
-              </div>
-            ))}
           </div>
         </div>
       </div>
