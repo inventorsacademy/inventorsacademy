@@ -79,8 +79,8 @@ export default function WhyJoinSection() {
             
             {/* Floating cards */}
             <div className="absolute -top-6 -left-6 bg-white p-4 rounded-xl shadow-lg" data-testid="floating-card-ratio">
-              <div className="text-academy-orange font-bold text-2xl">8:1</div>
-              <div className="text-sm text-gray-600">Student Ratio</div>
+              <div className="text-academy-orange font-bold text-lg">Small</div>
+              <div className="text-sm text-gray-600">Class Sizes</div>
             </div>
             
             <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-lg" data-testid="floating-card-countries">
