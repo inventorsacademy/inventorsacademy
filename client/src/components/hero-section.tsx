@@ -58,26 +58,6 @@ export default function HeroSection() {
               Download Brochure
             </Button>
           </div>
-          
-          {/* Key Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div data-testid="stat-alumni">
-              <div className="text-3xl font-bold text-academy-orange">500+</div>
-              <div className="text-gray-600">Alumni</div>
-            </div>
-            <div data-testid="stat-subjects">
-              <div className="text-3xl font-bold text-academy-orange">12</div>
-              <div className="text-gray-600">Subjects</div>
-            </div>
-            <div data-testid="stat-ratio">
-              <div className="text-3xl font-bold text-academy-orange">8:1</div>
-              <div className="text-gray-600">Student Ratio</div>
-            </div>
-            <div data-testid="stat-satisfaction">
-              <div className="text-3xl font-bold text-academy-orange">100%</div>
-              <div className="text-gray-600">Satisfaction</div>
-            </div>
-          </div>
         </div>
       </div>
       
