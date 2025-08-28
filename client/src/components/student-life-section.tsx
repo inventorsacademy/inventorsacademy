@@ -26,7 +26,14 @@ export default function StudentLifeSection() {
       url: "/attached_assets/students-library.png",
       caption: "Collaboration"
     },
-    
+    {
+      url: "/attached_assets/oxford-bridge.png",
+      caption: "College Life"
+    },
+    {
+      url: "/attached_assets/students-outdoor.png",
+      caption: "Campus Social"
+    }
   ];
 
   const activities = [
