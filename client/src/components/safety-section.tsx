@@ -3,20 +3,6 @@ import { Shield, UserCheck, Phone, ClipboardCheck, Check } from "lucide-react";
 export default function SafetySection() {
   const safetyFeatures = [
     {
-      icon: Shield,
-      title: "24/7 Supervision",
-      description: "Qualified staff provide round-the-clock care and supervision in college accommodations and during all activities.",
-      color: "bg-academy-green",
-      borderColor: "border-academy-green"
-    },
-    {
-      icon: UserCheck,
-      title: "Medical Support",
-      description: "Qualified first aid staff on-site, with established relationships with local medical facilities for any emergencies.",
-      color: "bg-blue-500",
-      borderColor: "border-blue-500"
-    },
-    {
       icon: Phone,
       title: "Parent Communication",
       description: "Regular updates and 24/7 emergency contact line. Photos and progress reports shared with families throughout the program.",
