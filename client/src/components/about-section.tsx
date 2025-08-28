@@ -51,7 +51,7 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-academy-green mb-2">Small Group Excellence</h3>
-                  <p className="text-gray-700">With a maximum 8:1 student-to-teacher ratio, every participant receives personalized attention and mentorship from industry experts and academic leaders.</p>
+                  <p className="text-gray-700">With a small class sizes every participant receives personalized attention and mentorship from industry experts and academic leaders.</p>
                 </div>
               </div>
             </div>
