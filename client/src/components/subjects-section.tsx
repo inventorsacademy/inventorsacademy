@@ -3,10 +3,8 @@ import {
   Brain, 
   TrendingUp, 
   Settings, 
-  Heart, 
   Leaf, 
-  Code, 
-  Dna 
+  Code 
 } from "lucide-react";
 
 export default function SubjectsSection() {
@@ -44,14 +42,6 @@ export default function SubjectsSection() {
       iconBg: "bg-academy-orange"
     },
     {
-      name: "Medicine",
-      description: "Healthcare innovation & research",
-      icon: Heart,
-      color: "from-red-50 to-red-100",
-      borderColor: "border-red-200",
-      iconBg: "bg-red-500"
-    },
-    {
       name: "Sustainability",
       description: "Environmental solutions",
       icon: Leaf,
@@ -66,14 +56,6 @@ export default function SubjectsSection() {
       color: "from-indigo-50 to-indigo-100",
       borderColor: "border-indigo-200",
       iconBg: "bg-indigo-500"
-    },
-    {
-      name: "Biotechnology",
-      description: "Life sciences & genetics",
-      icon: Dna,
-      color: "from-pink-50 to-pink-100",
-      borderColor: "border-pink-200",
-      iconBg: "bg-pink-500"
     }
   ];
 
