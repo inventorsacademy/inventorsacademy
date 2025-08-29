@@ -21,7 +21,7 @@ export default function FAQSection() {
     },
     {
       question: "How are students supervised and what safety measures are in place?",
-      answer: "We maintain a low staff-to-student ratio with qualified supervisors available 24/7. All staff undergo background checks and safeguarding training. We have qualified first aid personnel on-site and established relationships with local medical facilities. College grounds are secure with controlled access. Parents receive regular updates and have access to 24/7 emergency contact lines."
+      answer: "We maintain a low staff-to-student ratio with qualified supervisors available. All staff undergo background checks and safeguarding training."
     },
     {
       question: "What happens if I need to cancel my booking?",
