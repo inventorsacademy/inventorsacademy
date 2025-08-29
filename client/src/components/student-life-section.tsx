@@ -54,7 +54,7 @@ export default function StudentLifeSection() {
     {
       icon: Utensils,
       title: "Dining Experience",
-      description: "Meals in historic dining halls with international cuisine",
+      description: "Meals included with tasty international cuisine",
       color: "from-orange-50 to-orange-100",
       iconColor: "text-academy-orange"
     }

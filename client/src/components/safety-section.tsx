@@ -29,7 +29,7 @@ export default function SafetySection() {
             Your peace of mind is our priority. We provide comprehensive care and supervision for all participants.
           </p>
         </div>
-        
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             {safetyFeatures.map((feature, index) => {
@@ -57,7 +57,7 @@ export default function SafetySection() {
               );
             })}
           </div>
-          
+
           {/* Oxford college image */}
           <div className="relative">
             <img 
@@ -66,7 +66,7 @@ export default function SafetySection() {
               className="rounded-2xl shadow-2xl w-full h-auto"
               data-testid="safety-image"
             />
-            
+
             <div className="absolute bottom-6 left-6 bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-lg" data-testid="security-badge">
               <div className="flex items-center space-x-3">
                 <div className="bg-green-500 text-white p-2 rounded-full">

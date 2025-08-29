@@ -63,7 +63,7 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-academy-green mb-2">Complete Experience</h3>
-                  <p className="text-gray-700">Accommodation in historic colleges, all meals, supervised excursions, evening activities, and a graduation certificate recognizing achievements.</p>
+                  <p className="text-gray-700">Accommodation in historic Oxford city, all meals, supervised excursions, evening activities, and a graduation certificate recognising achievements.</p>
                 </div>
               </div>
             </div>
