@@ -43,7 +43,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="mb-6">
-              <Logo size="md" className="text-white [&_span]:text-white" />
+              <h2 className="text-white text-2xl font-bold">The Inventor Academy</h2>
             </div>
             
             <p className="text-green-200 mb-6 max-w-lg" data-testid="footer-description">
