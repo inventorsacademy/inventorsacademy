@@ -8,17 +8,19 @@ interface LogoProps {
 }
 
 export default function Logo({ className, size = "md", showText = true }: LogoProps) {
-  const textSizeClasses = {
-    sm: "text-lg",
-    md: "text-xl",
-    lg: "text-2xl lg:text-3xl"
+  const sizeClasses = {
+    sm: "h-8 w-auto",
+    md: "h-12 w-auto", 
+    lg: "h-20 w-auto"
   };
 
   return (
-    <div className={cn("flex items-center", className)}>
-      <span className={cn("font-bold text-academy-green", textSizeClasses[size])}>
-        The Inventor Academy
-      </span>
+    <div className={cn("flex items-center justify-center", className)}>
+      <img 
+        src="/attached_assets/inventor-academy-logo.svg"
+        alt="The Inventor Academy"
+        className={cn(sizeClasses[size])}
+      />
     </div>
   );
 }
