@@ -13,7 +13,7 @@ export default function FAQSection() {
     },
     {
       question: "What's included in the program fee?",
-      answer: "The program fee covers accommodation in historic Oxford college buildings, all meals (breakfast, lunch, and dinner), expert-led workshops and seminars, all materials and equipment needed for projects, supervised excursions and cultural activities, 24/7 supervision and support, and a graduation certificate. The only additional costs are personal expenses, travel to/from Oxford, and any optional extended excursions."
+      answer: "The program fee covers accommodation in Oxford, meals, expert-led workshops and seminars, all materials and equipment needed for projects, supervised excursions and cultural activities, supervision and support, and a graduation certificate. The only additional costs are personal expenses, travel to/from Oxford, and any optional extended excursions."
     },
     {
       question: "What kind of accommodation can students expect?",
