@@ -45,14 +45,14 @@ export default function Footer() {
             <div className="mb-6">
               <h2 className="text-white text-2xl font-bold">The Inventor Academy</h2>
             </div>
-            
+
             <p className="text-green-200 mb-6 max-w-lg" data-testid="footer-description">
               An independent summer program inspiring young innovators through hands-on STEM learning, entrepreneurship, and creativity in the historic setting of Oxford colleges.
             </p>
-            
-            
+
+
           </div>
-          
+
           {/* Quick Links */}
           <div>
             <h3 className="text-white font-semibold text-lg mb-6" data-testid="footer-quick-links-title">
@@ -72,7 +72,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          
+
           {/* Contact Info */}
           <div>
             <h3 className="text-white font-semibold text-lg mb-6" data-testid="footer-contact-title">
@@ -83,53 +83,41 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-academy-orange mt-1 flex-shrink-0" />
                 <div className="text-green-200">
                   <div>Oxford, UK</div>
-                  <div className="text-sm">Program locations in historic colleges</div>
                 </div>
               </div>
-              
-              <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-academy-orange flex-shrink-0" />
-                <a 
-                  href="tel:+44123456789" 
-                  className="text-green-200 hover:text-white transition-colors"
-                  data-testid="footer-phone"
-                >
-                  +44 (0)123 456 789
-                </a>
-              </div>
-              
+
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-academy-orange flex-shrink-0" />
                 <a 
-                  href="mailto:info@inventorsacademy.co.uk" 
+                  href="mailto:info@inventorsacademy.com" 
                   className="text-green-200 hover:text-white transition-colors"
                   data-testid="footer-email"
                 >
-                  info@inventorsacademy.co.uk
+                  info@inventorsacademy.com
                 </a>
               </div>
-              
+
               <div className="flex items-center space-x-3">
-                <Globe className="w-5 h-5 text-academy-orange flex-shrink-0" />
+                <Mail className="w-5 h-5 text-academy-orange flex-shrink-0" />
                 <a 
-                  href="#" 
+                  href="https://www.inventorsacademy.com" 
                   className="text-green-200 hover:text-white transition-colors"
                   data-testid="footer-website"
                 >
-                  www.inventorsacademy.co.uk
+                  www.inventorsacademy.com
                 </a>
               </div>
             </div>
           </div>
         </div>
-        
+
         {/* Bottom Footer */}
         <div className="border-t border-green-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-green-200 text-sm" data-testid="footer-copyright">
               © 2024 The Inventors Academy. All rights reserved.
             </div>
-            
+
             <div className="flex flex-wrap justify-center md:justify-end space-x-6 text-sm" data-testid="footer-policies">
               {policies.map((policy, index) => (
                 <a
