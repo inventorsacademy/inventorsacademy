@@ -1,3 +1,4 @@
+
 import { cn } from "@/lib/utils";
 
 interface LogoProps {
@@ -7,12 +8,6 @@ interface LogoProps {
 }
 
 export default function Logo({ className, size = "md", showText = true }: LogoProps) {
-  const sizeClasses = {
-    sm: "w-12 h-12",
-    md: "w-20 h-20",
-    lg: "w-28 h-28"
-  };
-
   const textSizeClasses = {
     sm: "text-lg",
     md: "text-xl",
@@ -20,12 +15,10 @@ export default function Logo({ className, size = "md", showText = true }: LogoPr
   };
 
   return (
-    <div className={cn("flex items-center space-x-3", className)}>
-      <img 
-        src="/attached_assets/The-Inventor-Academy-Logo-U4 copy_1756199382074.jpg" 
-        alt="The Inventor Academy Logo"
-        className={cn(sizeClasses[size], "object-contain")}
-      />
+    <div className={cn("flex items-center", className)}>
+      <span className={cn("font-bold text-white", textSizeClasses[size])}>
+        The Inventor Academy
+      </span>
     </div>
   );
 }
