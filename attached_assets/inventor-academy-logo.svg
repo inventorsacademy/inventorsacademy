@@ -1,28 +1,29 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 600" style="background: white;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 600">
   <!-- Graduation cap -->
   <g transform="translate(512,50)">
     <!-- Cap base -->
-    <path d="M -120,-20 L 120,-20 L 130,0 L 120,20 L -120,20 L -130,0 Z" fill="#F59E0B"/>
+    <path d="M -126,-15 L 126,-15 L 132,5 L 126,25 L -126,25 L -132,5 Z" fill="#F59E0B"/>
     <!-- Cap top -->
-    <path d="M -130,-20 L 130,-20 L 120,-40 L -120,-40 Z" fill="#F59E0B"/>
+    <path d="M -132,-15 L 132,-15 L 126,-35 L -126,-35 Z" fill="#F59E0B"/>
     <!-- Tassel -->
-    <rect x="115" y="-10" width="8" height="25" fill="#F59E0B"/>
-    <circle cx="119" cy="20" r="4" fill="#F59E0B"/>
+    <rect x="120" y="-5" width="6" height="20" fill="#F59E0B"/>
+    <circle cx="123" cy="20" r="3" fill="#F59E0B"/>
   </g>
   
   <!-- Light bulb -->
-  <g transform="translate(512,200)">
-    <!-- Bulb outline -->
-    <circle cx="0" cy="0" r="70" fill="white" stroke="#059669" stroke-width="20"/>
+  <g transform="translate(512,180)">
+    <!-- Bulb outline (green ring) -->
+    <circle cx="0" cy="0" r="85" fill="white"/>
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#065F46" stroke-width="25"/>
     <!-- Bulb base -->
-    <rect x="-20" y="80" width="40" height="15" fill="#F59E0B"/>
-    <rect x="-15" y="95" width="30" height="8" fill="#F59E0B"/>
+    <rect x="-18" y="75" width="36" height="12" rx="2" fill="#F59E0B"/>
+    <rect x="-12" y="87" width="24" height="8" rx="2" fill="#F59E0B"/>
   </g>
   
   <!-- Text "THE INVENTOR" -->
-  <text x="512" y="360" font-family="Arial Black, Arial" font-size="72" font-weight="900" text-anchor="middle" fill="#059669">THE INVENTOR</text>
+  <text x="512" y="350" font-family="Arial Black, sans-serif" font-size="68" font-weight="900" text-anchor="middle" fill="#065F46">THE INVENTOR</text>
   
   <!-- Text "ACADEMY" -->
-  <text x="512" y="450" font-family="Arial Black, Arial" font-size="72" font-weight="900" text-anchor="middle" fill="#F59E0B">ACADEMY</text>
+  <text x="512" y="430" font-family="Arial Black, sans-serif" font-size="68" font-weight="900" text-anchor="middle" fill="#F59E0B">ACADEMY</text>
 </svg>
