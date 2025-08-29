@@ -16,7 +16,7 @@ export default function Logo({ className, size = "md", showText = true }: LogoPr
 
   return (
     <div className={cn("flex items-center", className)}>
-      <span className={cn("font-bold text-white", textSizeClasses[size])}>
+      <span className={cn("font-bold text-academy-green", textSizeClasses[size])}>
         The Inventor Academy
       </span>
     </div>
