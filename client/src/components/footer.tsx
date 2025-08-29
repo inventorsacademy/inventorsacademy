@@ -51,20 +51,6 @@ export default function Footer() {
             </p>
             
             
-            {/* Social Links */}
-            <div className="flex space-x-4" data-testid="social-links">
-              {socialLinks.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.href}
-                  className="bg-white/10 p-3 rounded-full hover:bg-white/20 transition-colors"
-                  aria-label={social.label}
-                  data-testid={`social-link-${index}`}
-                >
-                  <span className="text-lg">{social.icon}</span>
-                </a>
-              ))}
-            </div>
           </div>
           
           {/* Quick Links */}
