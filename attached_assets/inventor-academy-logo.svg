@@ -1,18 +1,28 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 600">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 600" style="background: white;">
   <!-- Graduation cap -->
-  <path d="M391 7 C391 7, 391 7, 391 7 L633 7 C647 7, 647 7, 647 7 L647 98 C647 98, 647 98, 647 98 L622 98 C622 98, 622 98, 622 98 L622 118 C622 118, 622 118, 622 118 L402 118 C402 118, 402 118, 402 118 L402 98 C402 98, 402 98, 402 98 L391 98 C391 98, 391 98, 391 98 Z" fill="#F59E0B"/>
+  <g transform="translate(512,50)">
+    <!-- Cap base -->
+    <path d="M -120,-20 L 120,-20 L 130,0 L 120,20 L -120,20 L -130,0 Z" fill="#F59E0B"/>
+    <!-- Cap top -->
+    <path d="M -130,-20 L 130,-20 L 120,-40 L -120,-40 Z" fill="#F59E0B"/>
+    <!-- Tassel -->
+    <rect x="115" y="-10" width="8" height="25" fill="#F59E0B"/>
+    <circle cx="119" cy="20" r="4" fill="#F59E0B"/>
+  </g>
   
-  <!-- Light bulb circle -->
-  <circle cx="512" cy="200" r="85" fill="none" stroke="#059669" stroke-width="25"/>
-  
-  <!-- Light bulb base -->
-  <rect x="488" y="303" width="48" height="20" rx="5" fill="#F59E0B"/>
-  <rect x="495" y="323" width="34" height="10" rx="3" fill="#F59E0B"/>
+  <!-- Light bulb -->
+  <g transform="translate(512,200)">
+    <!-- Bulb outline -->
+    <circle cx="0" cy="0" r="70" fill="white" stroke="#059669" stroke-width="20"/>
+    <!-- Bulb base -->
+    <rect x="-20" y="80" width="40" height="15" fill="#F59E0B"/>
+    <rect x="-15" y="95" width="30" height="8" fill="#F59E0B"/>
+  </g>
   
   <!-- Text "THE INVENTOR" -->
-  <text x="512" y="420" font-family="Arial, sans-serif" font-size="78" font-weight="bold" text-anchor="middle" fill="#059669">THE INVENTOR</text>
+  <text x="512" y="360" font-family="Arial Black, Arial" font-size="72" font-weight="900" text-anchor="middle" fill="#059669">THE INVENTOR</text>
   
   <!-- Text "ACADEMY" -->
-  <text x="512" y="520" font-family="Arial, sans-serif" font-size="78" font-weight="bold" text-anchor="middle" fill="#F59E0B">ACADEMY</text>
+  <text x="512" y="450" font-family="Arial Black, Arial" font-size="72" font-weight="900" text-anchor="middle" fill="#F59E0B">ACADEMY</text>
 </svg>
