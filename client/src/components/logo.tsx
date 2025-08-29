@@ -17,7 +17,7 @@ export default function Logo({ className, size = "md", showText = true }: LogoPr
   return (
     <div className={cn("flex items-center justify-center", className)}>
       <img 
-        src="/attached_assets/inventor-academy-logo.svg"
+        src="/attached_assets/The-Inventor-Academy-Logo-U4 copy_1756466620264.jpg"
         alt="The Inventor Academy"
         className={cn(sizeClasses[size])}
       />
