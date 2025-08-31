@@ -87,24 +87,13 @@ export default function Footer() {
               </div>
 
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-academy-orange flex-shrink-0" />
+                <Globe className="w-5 h-5 text-academy-orange flex-shrink-0" />
                 <a 
-                  href="mailto:info@inventorsacademy.com" 
-                  className="text-green-200 hover:text-white transition-colors"
-                  data-testid="footer-email"
-                >
-                  info@inventorsacademy.com
-                </a>
-              </div>
-
-              <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-academy-orange flex-shrink-0" />
-                <a 
-                  href="https://www.inventorsacademy.com" 
+                  href="https://theinventorsacademy.com/" 
                   className="text-green-200 hover:text-white transition-colors"
                   data-testid="footer-website"
                 >
-                  www.inventorsacademy.com
+                  https://theinventorsacademy.com/
                 </a>
               </div>
             </div>
