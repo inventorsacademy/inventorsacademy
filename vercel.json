@@ -1,22 +1,15 @@
 {
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/public",
+
   "functions": {
-    "server/index.ts": {
-      "runtime": "@vercel/node"
-    }
+    "dist/server/index.js": { "runtime": "nodejs20.x" }
   },
+
   "routes": [
-    {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/api/(.*)",
-      "dest": "/server/index.ts"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/server/index.ts"
-    }
-  ],
-  "outputDirectory": "dist"
+    { "src": "/api/(.*)", "dest": "dist/server/index.js" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/dist/public/$1" }
+  ]
 }
