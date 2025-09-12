@@ -46,4 +46,4 @@ npm start
 
 ## Assets
 
-All images are included in the `attached_assets` and `public/assets` directories and will be served correctly in production.
+All images are included in the `attached_assets` and `public/assets` directories and will be served correctly in production.# InventorAcademy
