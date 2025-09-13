@@ -1,0 +1,32 @@
+[13:34:25.602] Running build in Washington, D.C., USA (East) – iad1
+[13:34:25.608] Build machine configuration: 2 cores, 8 GB
+[13:34:25.650] Cloning github.com/bulandun/InventorAcademy (Branch: main, Commit: a0184e0)
+[13:34:25.678] Skipping build cache, deployment was triggered without cache.
+[13:34:27.116] Cloning completed: 1.466s
+[13:34:27.540] Running "vercel build"
+[13:34:28.009] Vercel CLI 47.1.1
+[13:34:28.186] WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+[13:34:28.903] Installing dependencies...
+[13:34:57.465] 
+[13:34:57.465] added 335 packages in 28s
+[13:34:57.465] 
+[13:34:57.465] 49 packages are looking for funding
+[13:34:57.465]   run `npm fund` for details
+[13:34:57.535] Running "npm run build"
+[13:34:57.649] 
+[13:34:57.649] > inventors-academy-client@1.0.0 build
+[13:34:57.649] > vite build --config ../vite.config.ts
+[13:34:57.650] 
+[13:34:57.865] [31mfailed to load config from /vercel/path0/vite.config.ts[39m
+[13:34:57.866] [31merror during build:
+[13:34:57.866] Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'vite' imported from /vercel/path0/vite.config.ts.timestamp-1757766897862-3e0a7f81a0d8b.mjs
+[13:34:57.867]     at Object.getPackageJSONURL (node:internal/modules/package_json_reader:255:9)
+[13:34:57.867]     at packageResolve (node:internal/modules/esm/resolve:767:81)
+[13:34:57.867]     at moduleResolve (node:internal/modules/esm/resolve:853:18)
+[13:34:57.867]     at defaultResolve (node:internal/modules/esm/resolve:983:11)
+[13:34:57.867]     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:783:12)
+[13:34:57.867]     at #cachedDefaultResolve (node:internal/modules/esm/loader:707:25)
+[13:34:57.867]     at ModuleLoader.resolve (node:internal/modules/esm/loader:690:38)
+[13:34:57.867]     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:307:38)
+[13:34:57.867]     at ModuleJob._link (node:internal/modules/esm/module_job:183:49)[39m
+[13:34:57.884] Error: Command "npm run build" exited with 1
