@@ -1,19 +1,19 @@
 {
-  "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "client/package.json",
-      "use": "@vercel/static-build"
+      "source": "/attached_assets/(.*)",
+      "destination": "/client/public/attached_assets/$1"
     }
   ],
-  "routes": [
+  "headers": [
     {
-      "src": "/attached_assets/(.*)",
-      "dest": "/client/public/attached_assets/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/client/index.html"
+      "source": "/attached_assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     }
   ]
 }
