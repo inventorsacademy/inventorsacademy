@@ -7,30 +7,22 @@
       "config": {
         "distDir": "../dist/public"
       }
-    },
-    {
-      "src": "server/index.ts",
-      "use": "@vercel/node"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
     },
     {
-      "src": "/attached_assets/(.*)",
-      "dest": "/attached_assets/$1"
+      "source": "/attached_assets/(.*)",
+      "destination": "/attached_assets/$1"
     },
     {
-      "src": "/api/(.*)",
-      "dest": "server/index.ts"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
-  "installCommand": "npm install --prefix client && npm install --prefix server",
-  "buildCommand": "npm run build --prefix client && npm run build --prefix server"
+  "installCommand": "npm install --prefix client",
+  "buildCommand": "npm run build --prefix client"
 }

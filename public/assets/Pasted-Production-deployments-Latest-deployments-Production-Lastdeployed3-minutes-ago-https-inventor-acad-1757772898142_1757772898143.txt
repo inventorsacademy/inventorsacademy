@@ -1,0 +1,169 @@
+Production deployments
+Latest deployments
+Production
+Lastdeployed3 minutes ago
+https://inventor-academy-pif4w83xh-brendans-projects-5750474a.vercel.app
+Filter deployments
+
+24 deployments
+24 deployments
+
+    Update project configuration files to reflect new directory structure
+    Active
+
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+67a4e91a27bf15739859f04a1a8d2bb53256ad4f
+3 minutes ago
+Add foundational styling and build configurations for the marketing w…
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+ca731655533467ed5a78ebcc47714eb642299323
+1 hour ago
+Update build configuration to use local Vite settings
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+955874bcc50631f4feb7c7546da69ea71a812785
+1 hour ago
+Update build configuration to correctly deploy the application
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+a0184e02932df811c0be9511e6920a95732a9542
+1 hour ago
+Update routing to serve static assets and the main index file correctly
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+b385f65fd2be8322765352790b8ebc1667f952b2
+1 hour ago
+Add project structure and initial dependencies for client and server
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+de789a8e8f5defb1fddb787603cfcd9414f35a30
+2 hours ago
+Configure Vercel to build and deploy the marketing website correctly
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+a48523c58f129daf5aa0ba966c1c8146f38b6302
+2 hours ago
+WIP: saving my changes
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+8e33a0b9b5826d8f4eb6b7430011a0e148c7c8fa
+2 hours ago
+WIP: saving my changes
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+9f3e300232c75eed00d5b4bd286bf5c547e39f6d
+3 hours ago
+WIP: saving my changes
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+4384132381a003c33791efb2c7679be309d68d9b
+3 hours ago
+WIP: saving my changes
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+13d445f919e201a69bf7b8bda960e74d1ff4ef63
+3 hours ago
+WIP: saving my changes
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+e810860e4bbd9660f1108db4138aa0b6fb618946
+3 hours ago
+Update vercel.json
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+71e48c9ecd396eb1ea947386691e50b93e59d25a
+3 hours ago
+Update vercel.json
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+6a4f206a6d1b7d11fafab5761e2b14700573c067
+3 hours ago
+Update vercel.json
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+9a578f578539efce63b4c5229ca2da79ed53b01f
+3 hours ago
+Update vercel.json
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+4ceb2332d4d69f762e913f0f2f464e78d3ecc060
+3 hours ago
+Update vercel.json
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+b117a9061af3a07996df8eb848275611c84b1ca3
+3 hours ago
+Update vercel.json
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+29287086a4b5331574cfd89e0f5c0a7ed9a2eaa5
+3 hours ago
+Create vercel.json
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+9a9055020e4f2d36ddcf9020abda0b5a182017af
+4 hours ago
+Delete vercel.json
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+a62dc11d67809406171e5195ac512ba7a5c94146
+4 hours ago
+Update vercel.json
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+c66beeab9e2b72531ec848a35f150c1fbed8e332
+4 hours ago
+fix: Vercel config for Vite SPA
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+2489904571d34cfb9a55974aac49fd2214516a49
+4 hours ago
+Update vercel.json
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+4c37891b1fe3fb028b2b152feafcbc78fd5da432
+yesterday
+first commit
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+ab791902aa0a04934a4a2c305f498d0040462950
+yesterday
+
+Footer
+© 2025 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
+    Security
+    Status
+    GitHub Community
+    Docs
+    Contact
+
