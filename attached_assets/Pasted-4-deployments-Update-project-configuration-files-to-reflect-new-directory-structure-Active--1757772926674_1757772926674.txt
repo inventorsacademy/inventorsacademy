@@ -1,0 +1,86 @@
+4 deployments
+
+    Update project configuration files to reflect new directory structure
+    Active
+
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+67a4e91a27bf15739859f04a1a8d2bb53256ad4f
+3 minutes ago
+Add foundational styling and build configurations for the marketing w…
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+ca731655533467ed5a78ebcc47714eb642299323
+1 hour ago
+Update build configuration to use local Vite settings
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+955874bcc50631f4feb7c7546da69ea71a812785
+1 hour ago
+Update build configuration to correctly deploy the application
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+a0184e02932df811c0be9511e6920a95732a9542
+1 hour ago
+Update routing to serve static assets and the main index file correctly
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+b385f65fd2be8322765352790b8ebc1667f952b2
+1 hour ago
+Add project structure and initial dependencies for client and server
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+de789a8e8f5defb1fddb787603cfcd9414f35a30
+2 hours ago
+Configure Vercel to build and deploy the marketing website correctly
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+a48523c58f129daf5aa0ba966c1c8146f38b6302
+2 hours ago
+WIP: saving my changes
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+8e33a0b9b5826d8f4eb6b7430011a0e148c7c8fa
+2 hours ago
+WIP: saving my changes
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+9f3e300232c75eed00d5b4bd286bf5c547e39f6d
+3 hours ago
+WIP: saving my changes
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+4384132381a003c33791efb2c7679be309d68d9b
+3 hours ago
+WIP: saving my changes
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+13d445f919e201a69bf7b8bda960e74d1ff4ef63
+3 hours ago
+WIP: saving my changes
+Status: Failed to deploy (completed).
+Failed to deploy toProductionby
+vercel
+e810860e4bbd9660f1108db4138aa0b6fb618946
+3 hours ago
+Update vercel.json
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
+71e48c9ecd396eb1ea947386691e50b93e59d25a
+3 hours ago
+Update vercel.json
+Status: Deployed (completed).
+Deployed toProductionby
+vercel
