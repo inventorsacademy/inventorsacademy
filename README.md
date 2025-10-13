@@ -1,5 +1,6 @@
 # The Inventors Academy Website
 
+
 A full-stack marketing website for The Inventors Academy summer program.
 
 ## Deployment to Vercel
