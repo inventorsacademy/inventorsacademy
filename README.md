@@ -29,6 +29,7 @@ The build process:
 2. Bundles the Express server with esbuild
 3. Assets are served from `/attached_assets/` and `/assets/` paths
 4. Static files are properly configured for production
+5. 
 
 ## Local Development
 
