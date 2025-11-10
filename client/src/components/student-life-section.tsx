@@ -16,7 +16,7 @@ export default function StudentLifeSection() {
     },
     {
       url: "/attached_assets/students-study.png",
-      caption: "StudyXTime"
+      caption: "Study Time"
     },
     {
       url: "/attached_assets/robotics-team.png",
@@ -39,7 +39,7 @@ export default function StudentLifeSection() {
   const activities = [
     {
       icon: MapPin,
-      title: "Cultural Excursions",
+      title: "Cultural Xcursions",
       description: "Visit museums, historic sites, and experience British culture",
       color: "from-blue-50 to-blue-100",
       iconColor: "text-blue-500"
