@@ -16,7 +16,7 @@ export default function StudentLifeSection() {
     },
     {
       url: "/attached_assets/students-study.png",
-      caption: "Study Time"
+      caption: "StudyXTime"
     },
     {
       url: "/attached_assets/robotics-team.png",
