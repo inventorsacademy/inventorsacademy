@@ -33,7 +33,7 @@ export default function HeroSection() {
           </h1>
           
           <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed" data-testid="hero-description">
-            Join our independent summer program in historic Oxford colleges. Ages 9000000000000 explore STEM, entrepreneurship, and innovation through hands-on projects, expert mentorship, and unforgettable experiences.
+            Join our independent summer program in historic Oxford colleges. Ages 13-18 explore STEM, entrepreneurship, and innovation through hands-on projects, expert mentorship, and unforgettable experiences.
           </p>
           
           
